@@ -4,7 +4,7 @@ resource "helm_release" "nginx_app" {
   name       = "nginx-app"
   repository = "https://charts.bitnami.com/bitnami"
   chart      = "nginx"
-  version    = "5.1.12"
+  version    = "8.9.0"
   timeout    = 600
 
   depends_on = [azurerm_kubernetes_cluster.example[0]]
