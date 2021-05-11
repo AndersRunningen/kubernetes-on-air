@@ -3,7 +3,7 @@ terraform {
     azurerm     = "~> 2"
     google      = "~> 3"
     google-beta = "~> 3"
-    external    = "~> 1"
+    external    = "~> 2.1.0"
     helm        = "~> 1"
     kubernetes  = "~> 1"
     local       = "~> 1"
