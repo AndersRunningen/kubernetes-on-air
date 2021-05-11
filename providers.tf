@@ -8,7 +8,7 @@ terraform {
     kubernetes  = "~> 1"
     local       = "~> 1"
     null        = "~> 2"
-    random      = "~> 2"
+    random      = "~> 3.1.0"
     template    = "~> 2"
     tls         = "~> 2"
   }
