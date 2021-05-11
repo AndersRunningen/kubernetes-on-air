@@ -6,7 +6,7 @@ terraform {
     external    = "~> 1"
     helm        = "~> 1"
     kubernetes  = "~> 1"
-    local       = "~> 1"
+    local       = "~> 2.1.0"
     null        = "~> 2"
     random      = "~> 2"
     template    = "~> 2"
