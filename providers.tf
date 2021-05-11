@@ -4,7 +4,7 @@ terraform {
     google      = "~> 3"
     google-beta = "~> 3"
     external    = "~> 1"
-    helm        = "~> 1"
+    helm        = "~> 2.1.0"
     kubernetes  = "~> 1"
     local       = "~> 1"
     null        = "~> 2"
