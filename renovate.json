@@ -1,7 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "automerge": true,
-  "requiredStatusChecks": null,
+  "automerge": false,
   "extends": [
     "local>AndersRunningen/renovate-config"
   ]
