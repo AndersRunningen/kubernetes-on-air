@@ -2,7 +2,7 @@ resource "helm_release" "nginx_app" {
   name       = "nginx-app"
   repository = "https://charts.bitnami.com/bitnami"
   chart      = "nginx"
-  version    = "5.7.2"
+  version    = "8.9.1"
   timeout    = 600
 
   depends_on = [google_container_node_pool.apps]
