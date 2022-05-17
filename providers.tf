@@ -10,7 +10,7 @@ terraform {
     null        = "~> 2"
     random      = "~> 2"
     template    = "~> 2"
-    tls         = "~> 2"
+    tls         = "~> 3.4.0"
   }
 }
 
