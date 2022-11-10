@@ -3,7 +3,7 @@ resource "helm_release" "nginx_ingress_controller" {
   repository = "https://charts.bitnami.com/bitnami"
   chart      = "nginx-ingress-controller"
   namespace  = "kube-system"
-  version    = "5.6.15"
+  version    = "9.3.21"
   timeout    = 600
 
   set {
